@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculando IMC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <h1>Coloque os dados sugeridos 
+            a seguir para calcular o seu índice de massa corporal</h1>
+            <h2>(Se o número do peso não for exato coloque ponto. E na altura coloque ponto após 
+                o número representante do metro!)</h2>
+            <p>Coloque o seu peso em KG abaixo &downarrow;</p>
+            <input type="number" name="peso" id="pes">
+            <p>coloque sua altura abaixo &downarrow;</p>
+            <input type="number" name="altura" id="altur">
+            <br>
+            <input type="button" value="Verificar" id="d" onclick="imc()">
+
+            <p id="resultado"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

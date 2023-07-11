@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+body{background-color: darkseagreen;
+    font-family: Arial;}
+
+div{text-align: center;
+max-width: 600px;
+margin: auto;}
+
+p{padding: 20px;}
+
+input{padding: 10px;}
+
+input#d{margin-top: 10px;}
